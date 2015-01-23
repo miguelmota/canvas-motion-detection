@@ -15,7 +15,7 @@
   var notes = $.querySelectorAll('.notes .note');
   var lastImageData;
 
-  // inver the x axis of webcam steram so the user feels like they are in front of a mirror
+  // invert the x axis of webcam steram so the user feels like they are in front of a mirror
   contextSource.translate(canvasSource.width, 0);
   contextSource.scale(-1, 1);
 
