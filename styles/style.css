@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.notes {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.notes .note {
+  width: 100px;
+  height: 100px;
+  margin: 0 50px;
+  background: rgba(0,0,0,1);
+  float: left;
+  opacity: 0.3;
+}
+
+.notes .note:first-child {
+  background: rgba(255,0,0,1);
+}
+
+.notes .note:nth-child(2) {
+  background: rgba(0,255,0,1);
+}
+
+.notes .note:last-child {
+  background: rgba(0,0,255,1);
+}
+
+.notes .note.active {
+  opacity: 1;
+}
