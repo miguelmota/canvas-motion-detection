@@ -6,7 +6,7 @@ In this demo we grab a video stream via [getUserMedia](https://developer.mozilla
 
 # Demo
 
-[http://lab.moogs.io/canvas-motion-detection](http://lab.moogs.io/canvas-motion-detection)
+[https://lab.miguelmota.com/canvas-motion-detection](https://lab.miguelmota.com/canvas-motion-detection)
 
 # License
 
